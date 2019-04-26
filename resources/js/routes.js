@@ -1,7 +1,7 @@
 import Home from './components/Home'
 import About from './components/About'
 
-let NotFound = () => import('./components/NotFound');
+let NotFound = () => import(/* webpackChunkName: "loaders" */ './components/NotFound');
  
 
 export default {
